@@ -1,0 +1,15 @@
+.spacer {
+  display: flex;
+  flex: auto;
+  padding: 0px;
+}
+
+img {
+  width: 5vh;
+}
+
+mat-sidenav {
+  background: hsl(0, 0%, 0%, 0.8);
+  color: white;
+  /* bottom: 0; */
+}

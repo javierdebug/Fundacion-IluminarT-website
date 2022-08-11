@@ -1,0 +1,40 @@
+.hero {
+  /* background-image: url(../../../assets/images/blocks/events/ev1.png); */
+  background-image: url(../../../assets/images/blocks/events/ev5.jpg);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 600px;
+  color: #F9FAFF;
+}
+
+.hero-text h1 {
+  font-size: clamp(3vh, 2.2vw, 3.5rem);
+  /* font-size: 3rem; */
+  /* background-color: rgba(128, 128, 128, 0.71); */
+  /* color: #FADA0A; */
+  /* border-radius: 10px; */
+  /* padding: 3%; */
+  line-height: 1.5;
+  font-style: italic;
+  text-align: center;
+  /* width: 80vw; */
+}
+
+button {
+  cursor: pointer;
+  font-size: 1.6rem;
+  padding: 15px 50px;
+  /* margin: 5vh 0 1vh; */
+}
+
+img {
+  opacity: 30%;
+  border-radius: 10px;
+  width: 20%;
+}
